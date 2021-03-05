@@ -6,3 +6,9 @@ execute this command:
 ```
 mvn package exec:java
 ```
+
+
+This is the command to deploy the website
+```
+mvn package appengine:deploy
+```
