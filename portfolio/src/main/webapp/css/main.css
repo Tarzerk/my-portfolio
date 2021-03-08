@@ -171,13 +171,90 @@ section {
   margin-bottom: 2em;
 }
 
-portfolio {
-  background: #dcdceb;
+.portfolio {
+  background: #fff;
 }
 
 .portfolio-container a img {
   border-radius: 1em;
   margin-bottom: 2em;
+}
+
+footer {
+  position: absolute;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  background-color: #1616AC;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: white;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  color: white;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials-footer {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials-footer li {
+  margin: 0 10px;
+}
+
+.socials-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.socials-footer a i {
+  font-size: 1.1rem;
+}
+
+.socials-footer a:hover i {
+  color: #FA824C;
+  -webkit-transition: color .4s ease;
+  transition: color .4s ease;
 }
 
 /* Media Queries start here */
