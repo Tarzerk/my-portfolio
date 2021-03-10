@@ -1,3 +1,4 @@
+/* Body Changes */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 body {
   height: 100vh;
@@ -28,6 +29,7 @@ img {
   color: white;
 }
 
+/* Navigation Header */
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,6 +61,7 @@ header ul a {
   /* This is off due to mobile view*/
 }
 
+/* Hero Design (Landing Page) */
 .hero {
   background: #2424A0;
   color: white;
@@ -88,6 +91,7 @@ span {
   margin-top: 2em;
 }
 
+/* featured section */
 section {
   padding: 4em 2em;
   text-align: center;
@@ -132,6 +136,7 @@ section {
   font-weight: 500;
 }
 
+/* Skills Section */
 .skills {
   background: #3C91E6;
 }
@@ -171,8 +176,9 @@ section {
   margin-bottom: 2em;
 }
 
-portfolio {
-  background: #dcdceb;
+/* Portfolio Section */
+.portfolio {
+  background: #ffffff;
 }
 
 .portfolio-container a img {
