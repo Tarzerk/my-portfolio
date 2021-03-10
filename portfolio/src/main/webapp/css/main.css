@@ -56,7 +56,8 @@ header ul a {
   padding: 0 1em;
 }
 
-.social-header, .hero-design {
+.social-header,
+.hero-design {
   display: none;
   /* This is off due to mobile view*/
 }
@@ -102,7 +103,7 @@ section {
 }
 
 .featured::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 200px;
   border-radius: 50%;
@@ -141,14 +142,18 @@ section {
   background: #3C91E6;
 }
 
-.skills-container ul li {
+.skills-container
+ul
+li {
   background: white;
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 1em;
 }
 
-.skills-container ul li .icon-container {
+.skills-container
+ul
+li .icon-container {
   height: 100px;
   display: -ms-grid;
   display: grid;
@@ -156,15 +161,21 @@ section {
   margin: 0 auto;
 }
 
-.skills-container ul li .icon-container.one {
+.skills-container
+ul
+li .icon-container.one {
   width: 100px;
 }
 
-.skills-container ul li .icon-container.two {
+.skills-container
+ul
+li .icon-container.two {
   width: 75px;
 }
 
-.skills-container ul li .icon-container.three {
+.skills-container
+ul
+li .icon-container.three {
   width: 80px;
 }
 
@@ -188,16 +199,19 @@ section {
 
 /* Media Queries start here */
 @media only screen and (min-width: 800px) {
-  .featured, .portfolio {
+  .featured,
+  .portfolio {
     text-align: left;
   }
-  .featured, .portfolio-container {
+  .featured,
+  .portfolio-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 40% auto;
         grid-template-columns: 40% auto;
   }
-  .left, .portfolio-left {
+  .left,
+  .portfolio-left {
     display: -ms-grid;
     display: grid;
     place-content: center;
@@ -291,7 +305,8 @@ section {
     margin-top: 15%;
     width: 100%;
   }
-  .portfolio img {
+  .portfolio
+img {
     float: right;
     max-width: 500px;
   }
@@ -307,7 +322,8 @@ section {
   section {
     padding: 10em 10em 4em 10em;
   }
-  .hero .content {
+  .hero
+.content {
     padding: 6em 8em 6em 10em;
   }
 }
@@ -322,7 +338,8 @@ section {
   section {
     padding: 6em 20em 4em 20em;
   }
-  .hero .content {
+  .hero
+.content {
     padding: 9em 20em 6em 20em;
   }
 }
