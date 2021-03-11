@@ -1,19 +1,132 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
-    </div>
-  </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Erik Rodriguez</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+	<body>	
+		<div class="navigation-container">
+			<header>
+				<a href="index.html" class="main-logo"> Erik Rodriguez </a>
+				<nav>
+					<ul>
+						<li> <a href="#"> Work </a> </li> <!---TODO: ADD scroll-to functionality to each link-->
+						<li> <a href="#"> Skills </a> </li>
+						<li> <a href="#"> Contact Me </a> </li>
+					</ul>
+				</nav>
+			</header>
+			<div class="social-header">
+				<ul>
+					<li><a href="#" > <img src="images/github.png" alt="github"></a></li>
+					<li><a href="#" > <img src="images/linkedin.png" alt="linkedin"></a></li>
+					<li><a href="#" > <img src="images/instagram.png" alt="instagram"></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="hero">
+			<div class="content">
+				<h1 class="stagger1">From Great Ideas To Beautiful Experiences</h1>
+				<div class="meet stagger1">
+						<span>👇</span>
+						<p>Meet Erik Rodriguez</p>
+				</div>
+			<svg class="scroll stagger1" width="40" height="77" viewBox="0 0 40 77">
+					<g id="scroll" transform="translate(-253 -787)">
+						<g id="Rectangle_12" data-name="Rectangle 12" transform="translate(253 787)" fill="none" stroke="#fff" stroke-width="4">
+							<rect width="40" height="77" rx="20" stroke="none"/>
+							<rect x="2" y="2" width="36" height="73" rx="18" fill="none"/>
+						</g>
+						<circle class="circle" id="Ellipse_1" data-name="Ellipse 1" cx="11" cy="11" r="11" transform="translate(262 798)" fill="#fff"/>
+					</g>
+				</svg>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" class="hero-design" width="686" height="688" viewBox="0 0 686 688">
+				<g id="blockdesign" transform="translate(-935 -289)">
+					<rect class="square-anim" data-name="Rectangle 2" width="172" height="172" rx="19" transform="translate(1277 289)" fill="#1616ac"/>
+					<rect class="square-anim" data-name="Rectangle 10" width="172" height="172" rx="86" transform="translate(1277 461)" fill="#fa824c"/>
+					<rect class="square-anim" data-name="Rectangle 8" width="172" height="172" rx="19" transform="translate(1449 461)" fill="#849de3"/> 
+					<rect class="square-anim" data-name="Rectangle 5" width="172" height="172" rx="19" transform="translate(1277 633)" fill="#1616ac"/> 
+					<rect class="square-anim" data-name="Rectangle 3" width="172" height="172" rx="19" transform="translate(1107 461)" fill="#fff"/>
+					<rect class="square-anim" data-name="Rectangle 9" width="172" height="172" rx="86" transform="translate(1107 633)" fill="#00f7ff"/>
+					<rect class="square-anim" data-name="Rectangle 7" width="172" height="172" rx="19" transform="translate(935 633)" fill="#fff" opacity="0.17"/>
+					<rect class="square-anim" data-name="Rectangle 4" width="172" height="172" rx="19" transform="translate(1107 805)" fill="#fff"/>
+				</g>
+			</svg> 
+		</div>
+
+		<section class="Featured">
+			<div class="left">
+				<div class="inner transtion2">
+					<p class="subtitle">Featured Project</p>
+					<a href="#" class="featured-title">Texas United</a>
+					<p class="featured-description">Texas United is a website that connects you with resources during difficult times.</p>
+				</div>	
+				<img class="right transition2" src="images/TexasUnited.png" alt="Featured Project">
+			</div>
+		</section>
+
+		<section class="skills">
+			<div class="skills-container">
+				<ul>
+					<li class="transition2">
+						<div class="icon-container one">
+							<img src="images/java.svg" alt="java icon">
+						</div>
+						<p class="skill-title">Java</p>
+						<p class="featured-description skill-description">Java is my go to language, its what I used in my Data Structures class, therefore I feel comfortable using it for complex stuff</p>
+					<li class="transition2">
+						<div class="icon-container two">
+							<img src="images/c++-logo.svg" alt="c++ icon">
+						</div>
+						<p class="skill-title">C++</p>
+						<p class="featured-description skill-description">C++ was my first programming language, and while isn't my favortie I am comfortable doing most tasks</p>
+					<li class="transition2">
+						<div class="icon-container three">
+							<img src="images/adobe-photoshop-logo.svg" alt="photoshop icon">
+						</div>
+						<p class="skill-title">Adobe Photoshop</p>
+						<p class="featured-description skill-description">I started using photoshop back in High School for my media, however now I use it for photography and design</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="portfolio">
+			<div class="portfolio-container transtion3">
+				<div class="portfolio-left">
+					<p class="subtitle">Ticket Reservation System</p>
+					<p class="featured-title"></p>
+					<p class="featured-description">
+						This is program that helps customers reserve orders on a theater like setting, it features an algorithm to find the best seats in the whole auditrium.
+					</p>
+				</div>
+				<a href="#"> <img src="images/ticketreservationsystem.png" alt="Project Name"></a>
+			</div>
+			<div class="portfolio-container transtion3">
+				<div class="portfolio-left">
+					<p class="subtitle">Generic Inventory System</p>
+					<p class="featured-title"></p>
+					<p class="featured-description">
+						A program that uses a generic binary tree to sort inventory given an input file. 
+					</p>
+				</div>
+				<a href="#"> <img src="images/Inventory System.png" alt="Project Name"></a>
+			</div>
+			<div class="portfolio-container transtion3">
+				<div class="portfolio-left">
+					<p class="subtitle">I am rich</p>
+					<p class="featured-title"></p>
+					<p class="featured-description">
+						A simple app that flexes your dominance over everyone :P
+					</p>
+				</div>
+				<a href="#"> <img src="images/i_am_rich.png" alt="Project Name"></a>
+			</div>
+		</section>	
+	</body>
 </html>
