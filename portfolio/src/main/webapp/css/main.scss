@@ -1,5 +1,9 @@
 /* Body Changes */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	height: 100vh;
 	margin: 0;
@@ -21,10 +25,10 @@ img {
 }
 
 .navigation-container {
-	background: #1616AC;
+	background: #1616ac;
 
 	a { /* sass exclusive feature */
-			color: white;
+		color: white;
 	}
 }
 
@@ -56,7 +60,7 @@ header {
 /* Hero Design (Landing Page) */
 
 .hero {
-	background: #2424A0;
+	background: #2424a0;
 	color: white;
 	display: grid;
 	text-align: center;
@@ -109,7 +113,7 @@ section {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: .2em;
-	color: #1616AC;
+	color: #1616ac;
 	font-size: .85em;
 }
 
@@ -212,7 +216,8 @@ li {
 		padding-top: 7em;
 	}
 
-	.skills-container ul{
+    .skills-container
+    ul{
 		display: grid;
 		grid-template-columns: repeat(3,auto);
 		grid-gap: 1em; 
@@ -222,7 +227,8 @@ li {
 		padding-top: 7em;;
 	}
 
-	.portfolio-container img {
+    .portfolio-container
+    img {
 		margin-left: 2em;
 	}
 
@@ -239,7 +245,7 @@ li {
 		background: unset;
 
 		header {
-			background: #1616AC;
+			background: #1616ac;
 		}
 	}
 	header {
@@ -274,7 +280,7 @@ li {
 		padding: 0;
 
 		.content {
-			background: #1616AC;
+			background: #1616ac;
 			padding: 6em 8em 6em 4em;
 			text-align: left;
 

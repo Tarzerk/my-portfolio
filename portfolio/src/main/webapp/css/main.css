@@ -1,5 +1,9 @@
 /* Body Changes */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -21,10 +25,11 @@ img {
 }
 
 .navigation-container {
-  background: #1616AC;
+  background: #1616ac;
 }
 
-.navigation-container a {
+.navigation-container
+ a {
   /* sass exclusive feature */
   color: white;
 }
@@ -41,17 +46,21 @@ header {
   padding: 2em;
 }
 
-header .logo {
+header
+.logo {
   font-weight: bold;
 }
 
-header ul {
+header
+ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-header ul a {
+header
+ul
+a {
   display: block;
   padding: 0 1em;
 }
@@ -64,7 +73,7 @@ header ul a {
 
 /* Hero Design (Landing Page) */
 .hero {
-  background: #2424A0;
+  background: #2424a0;
   color: white;
   display: -ms-grid;
   display: grid;
@@ -79,7 +88,7 @@ header ul a {
   margin: 0 auto;
   width: 200px;
   font-weight: bold;
-  color: #FA824C;
+  color: #fa824C;
 }
 
 span {
@@ -139,7 +148,7 @@ section {
 
 /* Skills Section */
 .skills {
-  background: #3C91E6;
+  background: #3c91e6;
 }
 
 .skills-container
@@ -192,7 +201,9 @@ li .icon-container.three {
   background: #ffffff;
 }
 
-.portfolio-container a img {
+.portfolio-container
+a
+img {
   border-radius: 1em;
   margin-bottom: 2em;
 }
@@ -225,17 +236,19 @@ li .icon-container.three {
     margin-bottom: -7em;
     padding-top: 7em;
   }
-  .skills-container ul {
+  .skills-container
+  ul {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (auto)[3];
-        grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
   }
   .portfolio {
     padding-top: 7em;
   }
-  .portfolio-container img {
+  .portfolio-container
+   img {
     margin-left: 2em;
   }
 }
@@ -271,8 +284,8 @@ li .icon-container.three {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     width: 7em;
     float: right;
   }
@@ -288,7 +301,7 @@ li .icon-container.three {
     padding: 0;
   }
   .hero .content {
-    background: #1616AC;
+    background: #1616ac;
     padding: 6em 8em 6em 4em;
     text-align: left;
   }
@@ -323,7 +336,7 @@ img {
     padding: 10em 10em 4em 10em;
   }
   .hero
-.content {
+	.content {
     padding: 6em 8em 6em 10em;
   }
 }
@@ -339,7 +352,7 @@ img {
     padding: 6em 20em 4em 20em;
   }
   .hero
-.content {
+	.content {
     padding: 9em 20em 6em 20em;
   }
 }
